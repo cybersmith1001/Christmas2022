@@ -1,0 +1,111 @@
+body {
+    width: 1024px;
+    justify-content: center;
+    margin: 24px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+
+header {
+    width: 1024px;
+    height: 75px;
+    border-bottom-width: 5px;
+    border-bottom-color: red;
+    border-bottom-style: solid;
+    border-top-width: 5px;
+    border-top-color: red;
+    border-top-style: solid ;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding-top: 50px;
+    margin-bottom: 25px;
+    
+}
+
+
+nav a:link {
+    color: #fefefe;    
+    text-decoration: none;
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 130px;
+}
+
+
+
+nav a:visited {
+    color: #fefefe;
+    text-decoration: none; 
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 130px;
+}
+
+
+nav a:hover {
+    color: #fefefe; 
+    text-decoration: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #ff0000;
+    float: left;
+    font-size: 20px;
+    margin-right: 130px;
+    margin-left: 20px;
+}
+ 
+
+nav a:active {
+    text-decoration: none; 
+    color: #fefefe;
+    float: left; 
+    font-size: 20.px;
+    margin-right: 130px;
+    margin-left: 20px;
+    }
+
+.heading {
+    font-size: 300%;
+    text-align: center;
+}
+
+.sub_heading {
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+figure {
+
+    float: left;
+    width:   20%;
+    margin-left: 24px;
+    padding: 25px;
+
+}
+
+
+.story {
+    text-align: center;
+    font-size: 150%;
+}
+
+ul {
+list-style: none;
+
+}
+
+.pictures {
+
+    position: absolute; left:380px; top:500px;
+} 
+
+footer {
+    position: absolute; left: 24px; top: 900px;
+
+}
